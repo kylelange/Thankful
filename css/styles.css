@@ -11,6 +11,21 @@
 
 h1,h2,h3,li {
   font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 9.3em;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h2 {
+  font-size: 4.3em;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 h3 {
@@ -18,26 +33,39 @@ h3 {
   letter-spacing: 2px;
 }
 
+ul {
+  margin-top: 55px;
+  padding-left: 630px;
+}
+
 li {
   list-style-type: none;
   display: inline;
   font-weight: bolder;
+  padding-left: 15px;
+}
+
+hr {
+  width: 83%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid white;
 }
 
 /*Class Selectors********************/
- .flexed1 {
-   display: flex;
-   flex-direction: row;
- }
+.flexed1 {
+  display: flex;
+  flex-direction: row;
+}
 
- .flex-child1 {
-   flex-basis: 20%;
- }
+.flexed1 h3 {
+  margin-top: 48px;
+  margin-left: 20px;
+}
 
- .flexed2 {
-   display: flex;
-   flex-direction: row;
- }
+.hero-text {
+  margin-top: 120px;
+}
 
 
 /*Id Selectors***********************/
@@ -47,12 +75,17 @@ li {
   top: 0;
   left: 0;
   z-index: -1;
-  width: 1400px;
-  height: 686px;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
 
 }
 
+#logo {
+  height: 70px;
+  width: 70px;
+  margin-left: 92px;
+  margin-top: 25px;
+}
 /*Media Queries**********************/
 
 /*background-image: url(./img/fields.jpg);
