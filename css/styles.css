@@ -1,13 +1,60 @@
+/*borderbox reorder*/
+*,
+*::before,
+*::after {
+  webkit-box-sizing: border-box;
+  moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /*Universal Selectors****************/
 
+h1,h2,h3,li {
+  font-family: 'Raleway', sans-serif;
+}
 
+h3 {
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  font-weight: bolder;
+}
 
 /*Class Selectors********************/
+ .flexed1 {
+   display: flex;
+   flex-direction: row;
+ }
 
+ .flex-child1 {
+   flex-basis: 20%;
+ }
+
+ .flexed2 {
+   display: flex;
+   flex-direction: row;
+ }
 
 
 /*Id Selectors***********************/
 
+#img-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 1400px;
+  height: 686px;
+  object-fit: cover;
 
+}
 
 /*Media Queries**********************/
+
+/*background-image: url(./img/fields.jpg);
+background-repeat: no-repeat;
+background-size: cover;*/
