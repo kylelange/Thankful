@@ -9,7 +9,7 @@
 
 /*Universal Selectors****************/
 
-h1,h2,h3,li {
+h1,h2,h3,li,button {
   font-family: 'Raleway', sans-serif;
   color: #fff;
 }
@@ -65,6 +65,22 @@ hr {
 
 .hero-text {
   margin-top: 120px;
+}
+
+.btn-opacity {
+  background-color: rgba(231,137,112, 0.5);
+  width: 240px;
+  height: 57px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  background-color: #E78970;
+  font-weight: 900;
+  text-align: margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
