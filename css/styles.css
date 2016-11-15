@@ -52,6 +52,15 @@ hr {
   border: 1px solid white;
 }
 
+p {
+  font-family: 'Garamond', serif;
+  font-style: italic;
+  color: #fff;
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 15px;
+}
+
 /*Class Selectors********************/
 .flexed1 {
   display: flex;
@@ -68,21 +77,77 @@ hr {
 }
 
 .btn-opacity {
+  margin-top: 80px;
   background-color: rgba(231,137,112, 0.5);
   width: 240px;
   height: 57px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  border-radius: 5px;
 }
 
 .btn {
   background-color: #E78970;
-  font-weight: 900;
-  text-align: margin-left: auto;
-    margin-right: auto;
-    margin-left: auto;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  width: 232px;
+  height: 49px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
+/*Downloaded code to make a triangle (http://stackoverflow.com/questions/23758922/transparent-arrow-triangle)*/
+.wrap {
+  position: relative;
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
+}
+.wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.arrow {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 3%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.arrow:before,
+.arrow:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  width: 50%;
+  padding-bottom: inherit;
+  background-color: inherit;
+}
+.arrow:before {
+  right: 50%;
+  -ms-transform-origin: 100% 100%;
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -ms-transform: skewX(45deg);
+  -webkit-transform: skewX(45deg);
+  transform: skewX(45deg);
+}
+.arrow:after {
+  left: 50%;
+  -ms-transform-origin: 0 100%;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -ms-transform: skewX(-45deg);
+  -webkit-transform: skewX(-45deg);
+  transform: skewX(-45deg);
+}
+/*End of downloaded code*/
 
 /*Id Selectors***********************/
 
@@ -92,7 +157,7 @@ hr {
   left: 0;
   z-index: -1;
   width: 100%;
-  height: auto;
+  height: 100%;
 
 }
 
