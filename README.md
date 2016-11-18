@@ -1,8 +1,13 @@
-# _Thankful (Practice)_
+# _Thankful_
 
-#### _A practice site to work with centering with floats and/or flexbox, {Nov 14th, 2016}_
+#### _layout PRACTICE using inline-block/floats/chrome element console and flexbox do copy a webpage exactly, {Nov 13th, 2016}_
+
+#### See it live [HERE](https://kylelange.github.io/Thankful/).
+_
 
 #### By _**Kyle Lange**_
+
+![screenshot](Screen Shot.png)
 
 ## Description
 
@@ -19,6 +24,8 @@
 _There are no known bugs as of the last commit. Please send an ISSUE on github in the repository if you see something I have not._
 
 ## Support and contact details
+
+For questions, concerns, or suggestions please email baronsintrees@gmail.com
 
 
 ## Technologies Used
